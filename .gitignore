@@ -1,7 +1,20 @@
-__pycache__/
-.env
-node_modules/
+# --- Selenium / Chrome profile (DO NOT COMMIT) ---
+chrome_selenium_profile/
 *.log
+
+# --- Outputs (DO NOT COMMIT) ---
+output/
+*.pdf
+
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# --- OS / Editors ---
 .DS_Store
+Thumbs.db
 .vscode/
 .idea/

@@ -1,0 +1,20 @@
+I want to create a proof of application to show to the government MOE for my tuition grant bond. I want to show proof from 2025 to 2026.
+
+I'm on the 37th page of my LinkedIn account (https://www.linkedin.com/my-items/saved-jobs/?cardType=APPLIED&start=360). 
+
+I want to eventually go in descending order to page 1 (https://www.linkedin.com/my-items/saved-jobs/?cardType=APPLIED). 
+
+When I click onto a page, I want to scrape the following information in an excel spreadsheet:
+The Company, Role I applied for, what date I applied, About the job (so job description) and the link of the URL.
+
+Note: LinkedIn doesn't tell you the date of application but it says, "Application submitted 11 months ago" in this format. So calculate the exact month based on the datetime from today, now.  
+
+I also want to save the page as pdf and organize it in folders of different month.
+
+How would I create such a program/script? 
+
+
+
+
+
+
