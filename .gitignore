@@ -2,9 +2,16 @@
 chrome_selenium_profile/
 *.log
 
-# --- Outputs (DO NOT COMMIT) ---
-output/
-*.pdf
+# --- Ignore everything in output by default ---
+output/*
+
+# --- But allow these specific files ---
+!output/applications_2025_2026.xlsx
+!output/applications_full_descriptions.xlsx
+!output/scrape_state.json
+
+# --- Explicitly ignore PDFs folder ---
+output/pdfs/
 
 # --- Python ---
 __pycache__/
